@@ -1446,10 +1446,14 @@ transition: transform 0.3s var(--transition);
     line-height: 1.4;
   }
 
+  .contact-icon {
+    justify-items: center;
+  }
+
   .contact-card {
     row-gap: 1rem;
-    justify-items: start;
-    text-align: start;
+    justify-items: center;
+    text-align: center;
   }
 
   .contact-title {
